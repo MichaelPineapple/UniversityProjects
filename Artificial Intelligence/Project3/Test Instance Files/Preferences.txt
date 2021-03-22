@@ -1,0 +1,6 @@
+i5 OR HDD, 4
+Liquid AND ASUS, 3
+Liquid AND MSI, 5
+NVIDIA AND i7, 7
+Large AND Desktop, 3
+Windows AND NOT Mac, 69

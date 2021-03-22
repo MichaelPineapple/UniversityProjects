@@ -1,0 +1,45 @@
+Input a command (Type Ctrl-C to exit): dir
+a.out  file.txt  folder  main.c
+
+
+Input a command (Type Ctrl-C to exit): copy file.txt file2.txt
+
+
+Input a command (Type Ctrl-C to exit): dir
+a.out  file2.txt  file.txt  folder  main.c
+
+
+Input a command (Type Ctrl-C to exit): type file2.txt
+Here is some example data.
+
+Have a nice day!
+
+
+Input a command (Type Ctrl-C to exit): ren file2.txt folder
+
+
+Input a command (Type Ctrl-C to exit): dir
+a.out  file.txt  folder  main.c
+
+
+Input a command (Type Ctrl-C to exit): cd folder
+
+
+Input a command (Type Ctrl-C to exit): dir
+file2.txt
+
+
+Input a command (Type Ctrl-C to exit): del file2.txt
+
+
+Input a command (Type Ctrl-C to exit): dir
+
+
+Input a command (Type Ctrl-C to exit): cd ..
+
+
+Input a command (Type Ctrl-C to exit): dir
+a.out  file.txt  folder  main.c
+
+
+Input a command (Type Ctrl-C to exit): ^C

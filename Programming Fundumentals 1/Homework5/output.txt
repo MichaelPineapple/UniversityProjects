@@ -1,0 +1,8 @@
+Michael Wilson
+Homework 5
+
+Enter a number between 1 and 1000: 200
+
+Exactly 46 prime numbers exist between 0 and 200
+
+Press any key to continue . . .

@@ -1,0 +1,24 @@
+		/*
+		document.getElementById("fn").required=false;
+		document.getElementById("ln").required=true;
+		document.getElementById("addr").required=true;
+		document.getElementById("city").required=true;
+		document.getElementById("zip").required=true;
+		document.getElementById("email").required=true;
+		document.getElementById("cname").required=true;
+		document.getElementById("cvc").required=true;
+		document.getElementById("ppmail").required=true;
+		document.getElementById("pass").required=true;*/
+		
+				/*
+		document.getElementById("fn").required=true;
+		document.getElementById("ln").required=true;
+		document.getElementById("addr").required=true;
+		document.getElementById("city").required=true;
+		document.getElementById("zip").required=true;
+		document.getElementById("email").required=true;
+		document.getElementById("cname").required=true;
+		document.getElementById("cvc").required=true;
+		document.getElementById("ppmail").required=false;
+		document.getElementById("pass").required=false;
+		*/

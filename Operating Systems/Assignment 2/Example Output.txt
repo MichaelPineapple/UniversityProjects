@@ -1,0 +1,42 @@
+Main infile.txt 10 5 7
+
+Enter Command:
+BANK
+
+~BANK~
+resources  = [10,5,7]
+available  = [10,5,7]
+maximum    = [[7,5,3], [3,2,2], [9,0,2], [2,2,2], [4,3,3]]
+allocation = [[0,0,0], [0,0,0], [0,0,0], [0,0,0], [0,0,0]]
+need       = [[7,5,3], [3,2,2], [9,0,2], [2,2,2], [4,3,3]]
+
+
+Enter Command:
+1 REQUEST 3 2 1
+Request Granted!
+
+
+Enter Command:
+BANK
+
+~BANK~
+resources  = [10,5,7]
+available  = [7,3,6]
+maximum    = [[7,5,3], [3,2,2], [9,0,2], [2,2,2], [4,3,3]]
+allocation = [[0,0,0], [3,2,1], [0,0,0], [0,0,0], [0,0,0]]
+need       = [[7,5,3], [0,0,1], [9,0,2], [2,2,2], [4,3,3]]
+
+
+Enter Command:
+0 REQUEST 7 0 0
+Request Denied!
+
+
+Enter Command:
+SAFESEQ
+Safe Sequence: [1,2,3,4,0]
+
+
+Enter Command:
+QUIT
+Quitting...

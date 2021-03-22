@@ -1,0 +1,51 @@
+State,Capital,Abbreviation,Population,Region,US House Seats
+Louisiana,Baton Rouge,LA,4625470,South,6
+Wisconsin,Madison,WI,5742713,Midwest,8
+New Mexico,Santa Fe,NM,2085287,Southwest,3
+New York,Albany,NY,19651127,Middle Atlantic,27
+Hawaii,Honolulu,HI,1404054,West,2
+Vermont,Montpelier,VT,626630,New England,1
+Indiana,Indianapolis,IN,6570902,Midwest,9
+Arkansas,Little Rock,AR,2959373,South,4
+Utah,Salt Lake City,UT,2900872,West,4
+West Virginia,Charleston,WV,1854304,Middle Atlantic,3
+Montana,Helena,MT,1015165,West,1
+Maine,Augusta,ME,1328302,New England,2
+Mississippi,Jackson,MS,2991207,South,4
+Arizona,Phoenix,AZ,6626624,Southwest,9
+North Dakota,Bismarck,ND,723393,Midwest,1
+Texas,Austin,TX,26448193,Southwest,36
+Ohio,Columbus,OH,11570808,Midwest,16
+Alabama,Montgomery,AL,4833722,South,7
+Maryland,Annapolis,MD,5928814,Middle Atlantic,8
+Colorado,Denver,CO,5268367,West,7
+Iowa,Des Moines,IA,3090416,Midwest,4
+New Jersey,Trenton,NJ,8899339,Middle Atlantic,12
+Massachusetts,Boston,MA,6692824,New England,9
+North Carolina,Raleigh,NC,9848060,South,13
+Washington,Olympia,WA,6971406,West,10
+Pennsylvania,Harrisburg,PA,12773801,Middle Atlantic,18
+Wyoming,Cheyenne,WY,582658,West,1
+Missouri,Jefferson City,MO,6044171,Midwest,8
+Nevada,Carson City,NV,2790136,West,4
+Kansas,Topeka,KS,2893957,Midwest,4
+Kentucky,Frankfort,KY,4395295,South,6
+Delaware,Dover,DE,925749,Middle Atlantic,1
+South Dakota,Pierre,SD,844877,Midwest,1
+California,Sacramento,CA,38332521,West,53
+Oregon,Salem,OR,3930065,West,5
+Tennessee,Nashville,TN,6495978,South,9
+Illinois,Springfield,IL,12882135,Midwest,18
+New Hampshire,Concord,NH,1323459,New England,2
+Virginia,Richmond,VA,8260405,Middle Atlantic,11
+Idaho,Boise,ID,1612136,West,2
+Nebraska,Lincoln,NE,1868516,Midwest,3
+Minnesota,St Paul,MN,5420380,Midwest,8
+Rhode Island,Providence,RI,1051511,New England,2
+Alaska,Juno,AK,735132,West,1
+Connecticut,Hartford,CT,3596080,New England,5
+South Carolina,Columbia,SC,4774839,South,7
+Florida,Tallahassee,FL,19552860,South,27
+Michigan,Lansing,MI,9895622,Midwest,14
+Oklahoma,Oklahoma City,OK,3850568,Southwest,5
+Georgia,Atlanta,GA,9992167,South,14

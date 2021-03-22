@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Payment Processing</title>
+		<link rel="stylesheet" type="text/css" href="../css/site.css">
+		<script src="script.js"></script>
+	</head>
+
+	<body onload="start();">
+	
+		<h2 class="p2_1">Enter Payment Information</h2>
+		
+		<form onSubmit="return validateForm();">
+		
+
+		<label class="containerB">
+		<input onClick="updateForm(this);" type="radio" name="paymentType" value="credit" checked>
+		<span class="checkmarkB"></span>
+		</label>
+		<img src="images/AmEx.png" alt="American Express" width="100" height="100">
+		<img src="images/Discover.png" alt="Discover" width="100" height="100">
+		<img src="images/MasterCard.png" alt="MasterCard" width="100" height="100">
+		<img src="images/Visa.png" alt="Visa" width="100" height="100">
+		<br><br><br>
+		<label class="containerB">
+		<input onClick="updateForm(this);" type="radio" name="paymentType" value="paypall">
+		<span class="checkmarkB"></span>
+		</label>
+		<br><img src="images/PayPal.png" alt="PayPal" width="100" height="35">
+		<br><br><br>
+	
+		
+		
+		
+		<div class="p2_2">
+		
+		<!-- CREDIT -->
+		<div id="creditDiv">
+		<input id="fn"		class="p2_2" type="text" name="fname" value="Michael"   >First Name<br>
+		<input id="ln"		class="p2_2" type="text" name="lname" value="Wilson"   >Last Name<br>
+		<input id="addr"	class="p2_2" type="text" name="addr"  value="test data"   >Address<br>
+		<input id="city"	class="p2_2" type="text" name="city"  value="Jax"   >City<br>
+		<input id="zip"		class="p2_2" type="text" name="zip"   value="32224"   >Zip Code<br>
+		<input id="email"	class="p2_2" type="text" name="email" value="n01223646@unf.edu"   >Email Address<br>
+		<input id="cname"	class="p2_2" type="text" name="cardname" value="Michael Wilson" >Name On Card<br>
+		<input id="cnum"	class="p2_2" type="text" name="cardnum" value="4426 4410 6437 0020" >Card Number<br>
+		<input id="cvc"		class="p2_2" type="text" name="CVV2/CVC" value="123" ><a href="https://en.wikipedia.org/wiki/Card_security_code" target="_blank">CVV2/CVC</a><br>
+		<select id="state" class="p2_2" style="width: 160px;">
+			<option value="none">Select State</option>
+			<option value="AL">Alabama</option>
+			<option value="AK">Alaska</option>
+			<option value="AZ">Arizona</option>
+			<option value="AR">Arkansas</option>
+			<option value="CA">California</option>
+			<option value="CO">Colorado</option>
+			<option value="CT">Connecticut</option>
+			<option value="DE">Delaware</option>
+			<option value="DC">District Of Columbia</option>
+			<option value="FL">Florida</option>
+			<option value="GA">Georgia</option>
+			<option value="HI">Hawaii</option>
+			<option value="ID">Idaho</option>
+			<option value="IL">Illinois</option>
+			<option value="IN">Indiana</option>
+			<option value="IA">Iowa</option>
+			<option value="KS">Kansas</option>
+			<option value="KY">Kentucky</option>
+			<option value="LA">Louisiana</option>
+			<option value="ME">Maine</option>
+			<option value="MD">Maryland</option>
+			<option value="MA">Massachusetts</option>
+			<option value="MI">Michigan</option>
+			<option value="MN">Minnesota</option>
+			<option value="MS">Mississippi</option>
+			<option value="MO">Missouri</option>
+			<option value="MT">Montana</option>
+			<option value="NE">Nebraska</option>
+			<option value="NV">Nevada</option>
+			<option value="NH">New Hampshire</option>
+			<option value="NJ">New Jersey</option>
+			<option value="NM">New Mexico</option>
+			<option value="NY">New York</option>
+			<option value="NC">North Carolina</option>
+			<option value="ND">North Dakota</option>
+			<option value="OH">Ohio</option>
+			<option value="OK">Oklahoma</option>
+			<option value="OR">Oregon</option>
+			<option value="PA">Pennsylvania</option>
+			<option value="RI">Rhode Island</option>
+			<option value="SC">South Carolina</option>
+			<option value="SD">South Dakota</option>
+			<option value="TN">Tennessee</option>
+			<option value="TX">Texas</option>
+			<option value="UT">Utah</option>
+			<option value="VT">Vermont</option>
+			<option value="VA">Virginia</option>
+			<option value="WA">Washington</option>
+			<option value="WV">West Virginia</option>
+			<option value="WI">Wisconsin</option>
+			<option value="WY">Wyoming</option>
+		</select> State<br>
+		<input id="exp" class="p2_2" type="month" name="expdate" min="2017-01" max="2020-12" value="2019-04">Expiration Date<br>
+		</div>
+		<!-- CREDIT -->
+		
+		<!-- PAYPALL -->
+		<div id="paypallDiv" style="display:none;">
+		<input id="ppmail"	class="p2_2" type="text" name="email2"   >Email Address<br>
+		<input id="pass" 	class="p2_2" type="password" name="pass" >Password<br>
+		</div>
+		<!-- PAYPALL -->
+		
+		<br><br><br>
+		<input class="p2_2" type="image" src="images/PayNow.png" alt="Submit" width="100" height="44">
+		
+		
+		</div>
+		
+
+		</form>
+		
+		<br><br><br>
+		<a href="../index.html">ePortfolio</a><br>
+		
+	</body>
+	
+</html>

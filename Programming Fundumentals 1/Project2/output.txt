@@ -1,0 +1,11 @@
+Michael Wilson
+Project 2 - Wind Chill Calculator
+
+Enter Outside Temperature (Fahrenheit) [-58 - 41]: 20
+Enter Wind Speed [2 - 50]: 40
+
+    Outside Temp (F)  Wind Speed   Wind-Chill (F)   Wind-Chill (C)
+    ----------------  ----------   --------------   --------------
+                  20          40           -0.909          -18.283
+
+Press any key to continue . . .

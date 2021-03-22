@@ -1,0 +1,10 @@
+ComputerType: Desktop, Laptop
+SelfMade: SelfMade, NotSelfMade
+Size: Large, Small
+Cooling: Fans, Liquid
+OperatingSystem: Windows, Mac
+Make: ASUS, MSI
+RAM: 8GB, 16GB
+CPU: i5, i7
+GraphicsCard: NVIDIA, Intel
+Storage: HDD, SDD

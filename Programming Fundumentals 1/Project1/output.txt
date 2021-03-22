@@ -1,0 +1,14 @@
+Michael Wilson
+Project 1 - Unit Conversion Tool
+
+Enter a Fahrenheit temperature (integer): 1234
+Enter a distance in feet (integer): 7363
+Enter a weight in pounds (integer): 2927
+
+      Original          Value     Converted to          Value
+      --------          -----     ------------          -----
+    Fahrenheit           1234          Celsius            667
+          Feet           7363           Meters           2244
+        Pounds           2927        Kilograms           1327
+
+Press any key to continue . . .

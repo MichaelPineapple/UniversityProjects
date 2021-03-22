@@ -1,0 +1,39 @@
+Michael Wilson (N01223646)
+AI Project 3
+
+My test instance is based on the components of a computer.
+The attributes, constraints, and preferences are all availiable as individual files in the 'Test Instance Files' directory within my submission.
+
+
+ATTRIBUTES:
+
+ComputerType: Desktop, Laptop
+SelfMade: SelfMade, NotSelfMade
+Size: Large, Small
+Cooling: Fans, Liquid
+OperatingSystem: Windows, Mac
+Make: ASUS, MSI
+RAM: 8GB, 16GB
+CPU: i5, i7
+GraphicsCard: NVIDIA, Intel
+Storage: HDD, SDD
+
+CONSTRAINTS:
+
+Intel OR i7
+NOT Laptop OR Large
+NOT Mac AND NOT Mac
+ASUS OR Liquid
+SDD AND 16GB
+SelfMade AND NOT NotSelfMade
+
+PREFERENCES:
+
+i5 OR HDD, 4
+Liquid AND ASUS, 3
+Liquid AND MSI, 5
+NVIDIA AND i7, 7
+Large AND Desktop, 3
+Windows AND NOT Mac, 69
+
+

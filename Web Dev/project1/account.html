@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	  <title>Create an Account</title>
+	  <link rel="stylesheet" type="text/css" href="../css/site.css">
+	</head>
+
+	<body>
+	
+		<form action="https://unfinishedbusiness.app/alert.php" method="post">
+		
+			First name:<br><input type="text" name="firstname"><br>
+			Last name:<br><input type="text" name="lastname"><br>
+			Email:<br><input type="text" name="email"><br>
+			<br>
+			
+			Password:<br><input type="password" name="pass"><br>
+			Confirm Password:<br><input type="password" name="cpass"><br>
+			<br>
+			
+			Birth Date:<br><input type="date" name="bday" max="2020-12-31" min="1970-01-01" value="2015-09-21"><br>
+			<br>
+			
+			Degree Track:<br>
+			<label class="containerB"><a href="https://www.unf.edu/ccec/computing/Computer_Science_Program.aspx" target="_blank">Computer Science</a>
+			  <input type="radio" name="degree" value="cs">
+			  <span class="checkmarkB"></span>
+			</label>
+			<label class="containerB"><a href="https://www.unf.edu/ccec/computing/Information_Science_Program.aspx" target="_blank">Information Science</a>
+			  <input type="radio" name="degree" value="isci">
+			  <span class="checkmarkB"></span>
+			</label>
+			<label class="containerB"><a href="https://www.unf.edu/ccec/computing/Information_Systems_Program.aspx" target="_blank">Information Systems</a>
+			  <input type="radio" name="degree" value="isys">
+			  <span class="checkmarkB"></span>
+			</label>
+			<label class="containerB"><a href="https://www.unf.edu/ccec/computing/Information_Technology_Program.aspx" target="_blank">Information Technology</a>
+			  <input type="radio" name="degree" value="it">
+			  <span class="checkmarkB"></span>
+			</label>
+			<input type="radio" name="degree" value="none" checked="checked" style="visibility:hidden;"><br>
+
+			
+			Programming Language Experience:<br>
+			<div class="row">
+				<div class="column">
+					<label class="container"><a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank">C</a>
+					<input type="checkbox" name="lang" value="c">
+					<span class="checkmark"></span>
+					</label>
+					<label class="container"><a href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)" target="_blank">C#</a>
+					<input type="checkbox" name="lang" value="c#">
+					<span class="checkmark"></span>
+					</label>
+					<label class="container"><a href="https://en.wikipedia.org/wiki/Java_(programming_language)" target="_blank">Java</a>
+					<input type="checkbox" name="lang" value="j">
+					<span class="checkmark"></span>
+					</label>
+					<label class="container"><a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">JavaScript</a>
+					<input type="checkbox" name="lang" value="js">
+					<span class="checkmark"></span>
+					</label>
+				</div>
+				<div class="column">
+					<label class="container"><a href="https://en.wikipedia.org/wiki/PHP" target="_blank">PHP</a>
+					<input type="checkbox" name="lang" value="php">
+					<span class="checkmark"></span>
+					</label>
+					<label class="container"><a href="https://en.wikipedia.org/wiki/Python_(programming_language)" target="_blank">Python</a>
+					<input type="checkbox" name="lang" value="py">
+					<span class="checkmark"></span>
+					</label>
+					<label class="container"><a href="https://en.wikipedia.org/wiki/Visual_Basic" target="_blank">VisualBasic</a>
+					<input type="checkbox" name="lang" value="vb">
+					<span class="checkmark"></span>
+					</label>
+					<label class="container">Other
+					<input type="checkbox" name="lang" value="other">
+					<span class="checkmark"></span>
+					</label>
+				</div>
+			</div>
+			
+			<br>
+			
+			<input type="reset" name="reset">
+			<input type="Submit" name="submit">
+			
+			<input type="hidden" name="username" value="294077619" />
+			<input type="hidden" name="to_email_address" value="n01223646@unf.edu" />
+			<input type="hidden" name="to_display_name" value="Michael Wilson" />
+		</form>
+		
+		<br>
+		
+		<a href="index.html">Personal</a><br>
+		<a href="../index.html">ePortfolio</a><br>
+	
+	</body>
+
+</html>

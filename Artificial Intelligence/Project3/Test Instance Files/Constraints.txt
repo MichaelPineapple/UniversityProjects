@@ -1,0 +1,6 @@
+Intel OR i7
+NOT Laptop OR Large
+NOT Mac AND NOT Mac
+ASUS OR Liquid
+SDD AND 16GB
+SelfMade AND NOT NotSelfMade

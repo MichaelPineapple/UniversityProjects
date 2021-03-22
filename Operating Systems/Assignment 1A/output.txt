@@ -1,0 +1,73 @@
+Buffer empty, consumer waiting... 
+Producer produced: 43
+Producer produced: 68
+Producer produced: 0
+Producer produced: 69
+Producer produced: 33
+Producer produced: -52
+Producer produced: 44
+Producer produced: -98
+Producer produced: -93
+Producer produced: -77
+Buffer full, producer waiting... 
+Consumer consumed: 43
+Producer produced: 67
+Buffer full, producer waiting... 
+Consumer consumed: 68
+Producer produced: 38
+Buffer full, producer waiting... 
+Consumer consumed: 0
+Producer produced: 65
+Buffer full, producer waiting... 
+Consumer consumed: 69
+Producer produced: 81
+Buffer full, producer waiting... 
+Consumer consumed: 33
+Producer produced: 86
+Buffer full, producer waiting... 
+Consumer consumed: -52
+Producer produced: 59
+Buffer full, producer waiting... 
+Consumer consumed: 44
+Producer produced: -81
+Buffer full, producer waiting... 
+Consumer consumed: -98
+Producer produced: -20
+Buffer full, producer waiting... 
+Consumer consumed: -93
+Producer produced: 73
+Buffer full, producer waiting... 
+Consumer consumed: -77
+Producer produced: 69
+Buffer full, producer waiting... 
+Consumer consumed: 67
+Producer produced: -41
+Buffer full, producer waiting... 
+Consumer consumed: 38
+Producer produced: 17
+Buffer full, producer waiting... 
+Consumer consumed: 65
+Producer produced: -61
+Buffer full, producer waiting... 
+Consumer consumed: 81
+Producer produced: -98
+Buffer full, producer waiting... 
+Consumer consumed: 86
+Producer produced: 74
+Buffer full, producer waiting... 
+Consumer consumed: 59
+Producer produced: -31
+Buffer full, producer waiting... 
+Consumer consumed: -81
+Producer produced: 44
+Buffer full, producer waiting... 
+Consumer consumed: -20
+Producer produced: -75
+Buffer full, producer waiting... 
+Consumer consumed: 73
+Producer produced: 93
+Buffer full, producer waiting... 
+Consumer consumed: 69
+Producer produced: 34
+Buffer full, producer waiting... 
+Done

@@ -1,0 +1,8 @@
+Michael Wilson
+Homework 4
+
+Enter a year between 1900 and 2030: 2000
+
+2000 is a leap year
+
+Press any key to continue . . .

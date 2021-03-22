@@ -1,0 +1,11 @@
+Michael Wilson
+Homework 6
+
+Contents of the array:
+41, 467, 334, 500, 169, 724, 478, 358, 962, 464, 705, 145, 281, 827, 961,
+
+The minimum value 41 is located at index 0
+The maximum value 962 is located at index 8
+The average value of the array is 494.40
+
+Press any key to continue . . .
